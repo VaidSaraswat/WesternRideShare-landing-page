@@ -1,0 +1,241 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import custom css -->
+  <link rel="stylesheet" href="main.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Western Rideshare</title>
+  <style media="screen">
+    .tabs .tab a:hover{
+      color: #9c27b0;
+    }
+    .tabs .tab a.active{
+      color: #9c27b0;
+    }
+    .tabs .tab a{
+      color: #9c27b0;
+    }
+    .tabs .indicator{
+      background-color: #9c27b0;
+    }
+
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background:#f3e5f5 ;
+    }
+  </style>
+</head>
+<body>
+  <!--Navigation Bar-->
+  <header>
+    <nav class="nav-wrapper purple">
+      <div class="container">
+        <a href="#" class="brand-logo">Western Rideshare</a>
+        <a href="#"class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="#offers">Services</a></li>
+          <li><a href="#connect">Contact</a></li>
+          <li>
+            <a href="#"class="tooltipped btn-small btn-floating purple lighten-3"data-tooltip="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"class="tooltipped btn-small btn-floating purple lighten-3"data-tooltip="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"class="tooltipped btn-small btn-floating purple lighten-3"data-tooltip="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="sidenav purple" id="mobile-menu">
+          <li><a href="#about"class="white-text">About</a></li>
+          <li><a href="#offers"class="white-text">Services</a></li>
+          <li><a href="#connect"class="white-text">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+<!--Background image -->
+  <section class="section-img">
+
+  </section>
+
+  <!-- Content -->
+  <section class="container">
+    <div class="row">
+      <div class="col s12 l8">
+        <div class="card purple lighten-1">
+          <div class="card-content white-text">
+            <span class="card-title"><i class="material-icons right">today</i>Efficiency</span>
+            <p>
+              We can all agree that it can be quite annoying having to find rides on facebook. With
+              Western Rideshare you can find rides listed in chronological order!
+            </p>
+          </div>
+          <div class="card-action purple lighten-5">
+            <a href="#!"class="white-text waves-effect waves-light btn purple darken-5">More Info</a>
+            <a href="#!"class="white-text waves-effect waves-light btn purple darken-5">Questions?</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 l8 push-l4">
+        <div class="card purple lighten-1">
+          <div class="card-content white-text right-align">
+            <span class="card-title"><i class="material-icons left">find_in_page</i>Simplicity</span>
+            <p>
+              Once you have found the ride on facebook, you must then message
+              the person asking if they have space or not. This takes to much time going back and forth.
+              How does Western Rideshare help? When you find a ride all you have to do is click 'book ride'.
+              That's it!
+            </p>
+          </div>
+          <div class="card-action purple lighten-5 right-align">
+            <a href="#!"class="white-text waves-effect waves-light btn purple darken-5">More Info</a>
+            <a href="#!"class="white-text waves-effect waves-light btn purple darken-5">Questions?</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 l8">
+        <div class="card purple lighten-1">
+          <div class="card-content white-text">
+            <span class="card-title"><i class="material-icons right">security</i> Safety</span>
+            <p>
+              Safety is a big issue when looking for rides. Sometimes you might
+              not feel safe with the driver you have booked a ride with. With Western
+              Rideshare, all of the listed drivers fill out a security form before being
+              eligible to offer rides.
+            </p>
+          </div>
+          <div class="card-action purple lighten-5">
+            <a href="#!"class="white-text waves-effect waves-light btn purple darken-5">More Info</a>
+            <a href="#!"class="white-text waves-effect waves-light btn purple darken-5">Questions?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image-->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="Images/map.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- Services -->
+  <section class="container section scrollspy" id="offers">
+      <div class="col s12 l6 container">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#services">Services</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#howitworks">How it works</a>
+          </li>
+        </ul>
+        <div class="col s12" id="services">
+          <p class="flow-text purple-text">SERVICES</p>
+          <p>
+            Western Rideshare links people looking for rides
+            to drivers offering rides to/from the Western Campus. This
+            service allows people to find rides with a click of a button! You need
+            not waste time messaging back and forth, just one click and you're all set!
+          </p>
+          <p>
+            If you have any questions, send us an email!
+          </p>
+          <a href="mailto:vsaraswa@uwo.ca" class="btn-floating purple pulse"><i class="material-icons">email</i></a>
+        </div>
+        <div class="col s12" id="howitworks">
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header">Steps<i class="material-icons purple-text">add</i></div>
+              <div class="collapsible-body">
+                <ul class="collection with-header">
+                  <li class="collection-item"><i class="material-icons left purple-text">supervised_user_circle</i>Log onto rideshare site</li>
+                  <li class="collection-item"><i class="material-icons left purple-text">view_list</i>View available rides (listed in chornological order)</li>
+                  <li class="collection-item"><i class="material-icons left purple-text">touch_app</i>Click 'book ride'</li>
+                  <li class="collection-item"><i class="material-icons left purple-text">done</i>Your done!</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+  <!-- Image-->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="Images/phone.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="page-footer purple scrollspy" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>About Us</h5>
+          <p>
+            Western Rideshare's goals is to provide quick and easy service in terms of finding
+            rides to/from Western's campus. None of what we do is for profit it any capacity.
+            All of the prices listed go directly to the driver with no portion coming to us in any way.
+
+          </p>
+          <p>
+            However, in order to run such a site there are fees required to host, maintain, and deploy our site.
+            If any of you would like to donate, and help out this movement then check out our patreon page for more information!
+            In addition, we also are looking for individuals with experience in web development to help out with running this site. If
+            you are looking for a chance to develop, and be part of something big then don't hesitate to send us an email!
+          </p>
+          <a href="mailto:vsaraswa@uwo.ca" class="btn-floating purple lighten-2 pulse"><i class="material-icons">email</i></a>
+        </div>
+        <div class="col s12 l4 offset-l2 scrollspy" id="connect">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="#!" class="white-text">Facebook</a></li>
+            <li><a href="#!" class="white-text">Twitter</a></li>
+            <li><a href="#!" class="white-text">LinkedIn</a></li>
+            <li><a href="#!" class="white-text">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright purple">
+      <div class="container center-align">&copy; 2019 Western Rideshare</div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.tabs').tabs();
+      $('.parallax').parallax();
+      $('.collapsible').collapsible();
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.collapsible-header {
+    position: relative;
+}
+
+.collapsible-header i.material-icons.purple-text {
+    position: absolute;
+    right: 0;
+}
+
+.section-img{
+  background: url('Images/altitude.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+.section{
+  padding-top:4vw;
+  padding-bottom:4vw;
+}
+
+@media screen and (max-width: 670px){
+  .section-img{
+      min-height: 500px;
+    }
+}
